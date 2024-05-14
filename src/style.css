@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.menu {
+    display: flex;
+    justify-content: right;
+    /* padding: 10px 25px; */
+    list-style: none;
+    margin: 0;
+}
+
+.menu-item {
+    margin: 0px 10px;
+}
+
+.menu-item .drop-down-menu {
+    border: 1px solid black;
+    padding: 5px 10px;
+    position: absolute;
+    display: hidden;
+}
+
+.menu-active .drop-down-menu,
+.selected .drop-down-menu {
+    display: block;
+}
+
+.menu-active {
+    text-decoration: underline;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.drop-down-menu ul {
+    list-style: none;
+    padding: 0;
+}

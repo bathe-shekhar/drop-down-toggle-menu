@@ -1,5 +1,6 @@
 # drop-drown-menu
 
+<!--
 Guidlines:
 
 Please refer index.html file.
@@ -19,3 +20,4 @@ For crating Sub Menu Items:
                     </div>
 
 inside <li></li> tag after Menu Caption in <ul> with .menu class
+-->
